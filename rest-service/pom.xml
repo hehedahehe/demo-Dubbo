@@ -37,6 +37,11 @@
             <artifactId>order-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${curator-recipes}</version>
+        </dependency>
         <!--		<dependency>-->
         <!--			<groupId>com.ruibo</groupId>-->
         <!--			<artifactId>dubbo-simu-sdk</artifactId>-->

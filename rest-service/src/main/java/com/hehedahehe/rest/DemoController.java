@@ -21,7 +21,6 @@ public class DemoController {
     @GetMapping("/sayHi")
     public Object getHelloResponse(String name) {
         try {
-
             String resFromProvider = orderService.sayHello(name);
             return ImmutableMap.of(
                     "orderService", resFromProvider

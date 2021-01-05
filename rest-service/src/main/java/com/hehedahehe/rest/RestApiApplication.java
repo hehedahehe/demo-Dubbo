@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableDubbo
 @SpringBootApplication
-public class DemoRestApplication {
+public class RestApiApplication {
 
     public static volatile boolean run = false;
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoRestApplication.class, args);
+        SpringApplication.run(RestApiApplication.class, args);
     }
 
 
