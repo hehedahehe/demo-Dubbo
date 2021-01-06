@@ -9,6 +9,9 @@ dubbo:
   registry:
     address: zookeeper://101.37.152.54:2183
   ##### 调用服务超时时间
+  protocol:
+    name: dubbo
+    port: 20880
   consumer:
     timeout: 5000
     loadbalance: roundrobin
