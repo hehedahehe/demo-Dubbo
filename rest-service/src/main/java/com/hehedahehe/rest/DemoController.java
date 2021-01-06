@@ -18,8 +18,10 @@ public class DemoController {
             version = "1.0",
             retries = 1,
             loadbalance = "roundrobin",
+            timeout = 3000,
             parameters = {
-                    "sayHello.retries", "0"
+                    "sayHello.retries", "1",
+                    "sayHello.timeout", "1000"
             })
     private IOrderService orderService;
 

@@ -7,7 +7,7 @@ dubbo:
     name: DemoRest
   ##### 注册中心地址
   registry:
-    address: zookeeper://**:2183
+    address: zookeeper://101.37.152.54:2183
   ##### 调用服务超时时间
   consumer:
     timeout: 5000
