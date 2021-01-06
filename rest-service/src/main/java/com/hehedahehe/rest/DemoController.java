@@ -13,8 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     Logger logger = LoggerFactory.getLogger(DemoController.class);
-
-    @Reference(version = "1.0", retries = 0)
+    //参数配置 参照 https://blog.csdn.net/qq_32483795/article/details/108581724
+    @Reference(
+            version = "1.0",
+            retries = 1,
+            loadbalance = "roundrobin",
+            parameters = {
+                    "sayHello.retries", "0"
+            })
     private IOrderService orderService;
 
 
