@@ -11,7 +11,7 @@
     <groupId>com.hehedahehe</groupId>
     <artifactId>rest-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rest-demo</name>
+    <name>rest-service</name>
     <description>Demo project for demo rest</description>
 
 

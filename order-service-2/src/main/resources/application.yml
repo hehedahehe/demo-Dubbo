@@ -1,0 +1,26 @@
+server:
+  port: 9002
+
+dubbo:
+  application:
+    name: OrderService
+  protocol:
+    name: dubbo
+    port: 20882
+  registry:
+    address: zookeeper://101.37.152.54:2183
+#    address: zookeeper://192.168.0.211:2181?backup=192.168.0.212:2181,192.168.0.213:2181
+  config-center:
+    timeout: 10000 # 连接注册中心的超时时间：单位是毫秒
+  provider:
+    timeout: 3000
+    retries: 3
+    delay: -1
+    loadbalance: roundrobin
+
+
+
+spring:
+  output:
+  ansi:
+  enabled: always

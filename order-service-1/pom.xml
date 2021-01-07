@@ -12,7 +12,7 @@
 	<groupId>com.hehedahehe</groupId>
 	<artifactId>order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order-service</name>
+	<name>order-service-3</name>
 	<description>Order Service Impl</description>
 
 
@@ -47,12 +47,6 @@
 			<groupId>com.hehedahehe</groupId>
 			<artifactId>order-service-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>dubbo-registry-nacos</artifactId>
-			<version>0.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
